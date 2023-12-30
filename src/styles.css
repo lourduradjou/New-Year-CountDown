@@ -7,7 +7,8 @@
 }
 
 body {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/bg.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('bg.jpg');
+    background-position: center;
     color: #fff;
     background-size: cover;
 }
@@ -20,8 +21,8 @@ body {
 	align-items: center;
 }
 .outerBox {
-    width: 400px;
-    height: 600px;
+    width: 300px;
+    height: 500px;
     display: flex;
 	justify-content: center;
 	align-items: center;
@@ -79,6 +80,10 @@ body {
     .box small {
         font-size: 16px;
     }
+    .outerBox {
+        width: 350px;
+        height: 550px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -97,5 +102,9 @@ body {
     }
     .box small {
         font-size: 18px;
+    }
+    .outerBox {
+        width: 400px;
+        height: 600px;
     }
 }
