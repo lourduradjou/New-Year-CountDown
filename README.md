@@ -5,5 +5,5 @@ This project is made like , no need to update for each year, it is not static ty
 
 #Screen Shot of the project
 
-![Project Image](images/bg.png)
+![Project Image](./images/bg.png)
 
